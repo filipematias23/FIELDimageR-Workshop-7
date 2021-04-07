@@ -43,6 +43,7 @@ RUN R --quiet -e "devtools::install_github('IRkernel/IRkernel')" && \
     R --quiet -e "install.packages('agricolae')" && \
     R --quiet -e "install.packages('reshape2')" && \
     R --quiet -e "install.packages('devtools')" && \
+    R --quiet -e "install.packages('ggrepel')" && \
     R --quiet -e "install.packages('lme4')" && \
     R --quiet -e "install.packages('plyr')" && \
     R --quiet -e "install.packages('DescTools')" && \
